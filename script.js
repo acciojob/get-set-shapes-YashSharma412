@@ -3,25 +3,20 @@ class Rectangle {
 	constructor(width, height){
 		this.width = width;
 		this.height = height;
-		
 	}
 
-	get getWidth(){
+	get getWidth() {
 		return this.width;
 	}
 
-	get getHeight(){
+	get getHeight() {
 		return this.height;
 	}
 
-	getArea(){
-		// return Math.pow(this.width*this.height, 2);
-		return this.width*this.height;
+	getArea() {
+		return this.width * this.height;
 	}
-
-	
 }
-
 class Square extends Rectangle {
 	constructor(width, height){
 		super(width, height);
