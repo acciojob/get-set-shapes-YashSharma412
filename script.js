@@ -16,7 +16,7 @@ class Rectangle {
 
 	getArea(){
 		// return Math.pow(this.width*this.height, 2);
-		return width*height;
+		return this.width*this.height;
 	}
 
 	
